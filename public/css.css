@@ -1,0 +1,49 @@
+.bg-img{
+    background-image: url(	https://urbanstyleburrito.com/static/media/homesection.7678e756af41582f3cdb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 90px;
+}
+.bg2{
+    background-image: url(	https://urbanstyleburrito.com/static/media/second_second_bg.2b2fc7a3a617bec387c9.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg3{
+    background-image: url(https://urbanstyleburrito.com/static/media/Food%20truck%20text%20bg.de097d81dc5f6abf6c65.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 500px) {
+    .sec1{
+        margin-top: 110px;
+    }
+}
+@media only screen and (max-width: 300px){
+    .sec1{
+        margin-top: 150px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .truck , .truck-p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .truck-p2{
+        text-align: center;
+        width: 100%;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .col-span{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.bg4{
+    background-image: url(	https://urbanstyleburrito.com/static/media/connect_bg.f6e1523e20eb19aa5fcc.png);
+}
